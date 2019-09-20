@@ -1,0 +1,206 @@
+/*
+ Theme Name:   My Listing Child
+ Theme URI:    http://mylisting.27collective.net/my-city/
+ Description:  MyListing Child Theme
+ Author:       27collective
+ Author URI:   https://27collective.net/
+ Template:     my-listing
+ Version:      1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, custom-menu, custom-logo, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  my-listing-child
+*/
+
+/* .profile-cover.profile-cover-no-img{
+    background: transparent;
+}
+
+.listing-main-info h1,
+.listing-main-info h2,
+.featured-section{
+    color: inherit;
+}
+
+.profile-header{
+    display: none;
+}
+
+.single-job-listing .k3x4-custom-gallery .element{
+    margin-bottom: 0 !important;
+}
+
+.k3x4-custom-gallery .gallerySlider .gallery-thumb,
+.k3x4-custom-gallery .gallerySlider .gallery-nav{
+    display: none;
+}
+
+.element .pf-head{
+    display: none;
+}
+
+.element .pf-body {
+    padding-top: 0;
+}
+
+.element .pf-body .case27-primary-text{
+    margin-top: 0;
+}
+
+.header {
+    position: static;
+    z-index: auto;
+    top: auto;
+}
+
+.profile-cover.profile-cover-no-img{
+    height: auto;
+} */
+
+
+
+.listing-tabs .listing-tab.tab-type-main {
+    display: block;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    opacity: 1;
+}
+
+.listing-main-info {
+    position: static;
+    bottom: auto;
+    z-index: auto;
+    left: auto;
+    -webkit-transform: none;
+    transform: none;
+    margin-bottom: 20px;
+}
+
+.listing-main-info h1,
+.listing-main-info h2,
+.featured-section{
+    color: inherit;
+}
+
+.profile-name {
+    padding-left: 0;
+}
+
+.profile-body {
+    padding-top: 140px;
+}
+
+.profile-name .edit-listing i {
+    border: 1px solid #444;
+    color: #444;
+}
+
+.page-directory {
+    text-align: left;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 10px;
+}
+
+.page-directory li {
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+.page-directory li a{
+    font-size: 14px;
+}
+
+.header-top {
+    position: static;
+    width: 100%;
+    left: auto;
+}
+
+.header .header-container {
+    height: auto;
+}
+
+#c27-site-wrapper .c27-main-header .header-skin{
+    border-bottom: none !important;
+}
+
+@media (min-width: 768px){
+    .listing-main-info {
+        width: 750px;
+        padding-left: 15px;
+        padding-right: 15px;
+        bottom: auto;
+    }
+    .header-top {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px){
+    .listing-main-info {
+        width: 970px;
+        padding-left: 15px;
+        padding-right: 15px;
+        bottom: auto;
+    }
+    .header-top {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px){
+    .listing-main-info {
+        width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+        bottom: auto;
+    }
+    .header-top {
+        max-width: 1170px;
+    }
+}
+
+@media (min-width: 1450px){
+    .header-top {
+        max-width: 1300px;
+    }
+}
+
+@media (max-width: 1200px){
+    .page-directory {
+        display: block;
+        text-align: center;
+    }
+    .header-top {
+        padding: 15px;
+        text-align: center;
+    }
+    .header .header-container .header-top .logo{
+        display: inline-block;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: auto;
+    }
+    .header, .header.header-style-default {
+        padding: 0!important;
+        height: auto !important;
+    }
+    .header .i-nav {
+        left: -400px;
+        -webkit-transform: none;
+        transform: none;
+    }
+    .header .mobile-menu{
+        margin-right: 0;
+    }
+    .header .mobile-menu-open{
+        left: 0;
+        -webkit-transform: none;
+        transform: none;
+        -webkit-transition: all .3s cubic-bezier(0,.52,0,1);
+        transition: all .3s cubic-bezier(0,.52,0,1);
+    }
+}
