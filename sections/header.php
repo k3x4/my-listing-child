@@ -20,6 +20,10 @@ $data = c27()->merge_options([
 
 $header_classes = ['c27-main-header', 'header', "header-style-{$data['style']}", "header-{$data['skin']}-skin", "header-scroll-{$data['scroll_skin']}-skin", 'hide-until-load', 'header-scroll-hide'];
 
+if ( $data['fixed'] ) {
+	$header_classes[] = 'header-fixed';
+}
+
 $header_classes[] = sprintf( 'header-menu-%s', $data['menu_location'] === 'right' ? 'right' : 'left' );
 
 $GLOBALS['case27_custom_styles'] .= '.c27-main-header .logo img { height: ' . c27()->get_setting( 'header_logo_height', 38 ) . 'px; }';

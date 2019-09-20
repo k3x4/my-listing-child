@@ -126,6 +126,15 @@
     border-bottom: none !important;
 }
 
+.hide-until-load{
+    opacity: 1;
+}
+
+/* .header-skin {
+    -webkit-transition: none;
+    transition: none;
+} */
+
 @media (min-width: 768px){
     .listing-main-info {
         width: 750px;
